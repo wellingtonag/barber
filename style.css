@@ -220,16 +220,6 @@ i {
   padding: 54px 14px;
 }
 
-.map {
-  background-color: #ffffff;
-  color: #232224;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 0 14px 24px;
-}
-
 .services-content h2 {
   text-align: center;
   font-size: 38px;
@@ -250,6 +240,7 @@ i {
   gap: 16px;
   padding: 0 44px;
   margin-top: 14px;
+  z-index: 4;
 }
 
 .haircut {
@@ -299,11 +290,11 @@ i {
   .haircut img {
     max-width: 740px;
   }
-  .map {
-    padding-top: 30px;
-    padding-bottom: 10px;
-  }
 }
+.map {
+  background-color: #ffffff;
+}
+
 .footer {
   display: flex;
   flex-direction: column;
@@ -327,7 +318,7 @@ i {
   position: fixed;
   bottom: 14px;
   right: 24px;
-  z-index: 3;
+  z-index: 5;
 }
 .btn-whatsapp img {
   max-width: 74px;
